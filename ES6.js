@@ -7,9 +7,9 @@ var result="My name is: " + name + "and my age is: " + age
 */
 // 1) WRITE YOUR CODE UNDER THIS LINE
 
-
-
-
+var name="Alex"
+var age=25
+var result=`My name is: ${name} and my age is: ${age}`
 
 
 /* 
@@ -25,3 +25,12 @@ var object={
 }
  */
 // 2) WRITE YOUR CODE UNDER THIS LINE
+var food="Fried Chicken"
+var color="Blue"
+var object={
+  food:food,
+  color:color,
+  multi:((a,b)=>{
+    return a * b
+  })
+}
